@@ -1,0 +1,18 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+/*authorization*/
+
+.btn {
+    margin: 10px;
+}
+.nav-wrapper {
+    padding: 0 2rem;
+}
+.pt{
+    padding-top: 2rem;
+}
+.loader{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}

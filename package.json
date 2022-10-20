@@ -1,0 +1,31 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "Damian Kuzovkov <damian.kuzovkov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.8",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.19"
+  }
+}
