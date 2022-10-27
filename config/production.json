@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwt": "jwt test",
+  "mongoUri": "mongodb+srv://Demian:Chickenfoot1@cluster0.goukblj.mongodb.net/?retryWrites=true&w=majority",
+  "baseUrl" : "http://localhost:5000"
+}
